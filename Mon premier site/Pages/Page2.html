@@ -4,22 +4,96 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Page2</title>
+    <style type="text/css">td, th {
+        border: 2px solid rgb(218, 133, 37);
+      }</style>
+    <style type="text/css">table {
+        border: 2px solid rgb(14, 63, 223);
+      }</style>
+    <style type="text/css">caption {
+        border: 2px solid rgb(248, 8, 0);
+      }</style>
+    <style type="text/css">tr:hover {
+        background-color: rgb(79, 255, 88);
+      }</style>
 </head>
 <body>
     <h1>Page2</h1>
     <a href="../index.html" target="_blank"><strong>Direction l'Index</strong></a>
     <a href="../Page1.html" target="_blank"><strong>Direction la Page 1</strong></a>
-    <!--table>(tr>td*3)+(tr>td*3)-->
-    <table>
+        <!--table>(tr>th*3)+(tr>td*3)+(tr>td*3)-->
+    <table style="background-color:rgba(245, 35, 35, 0.541)">
+        <caption>Prix du marché</caption>
         <tr>
-            <td>L1 C1</td>
-            <td>L1 C2</td>
-            <td>L1 C3</td>
+            <th>Fruits</th>
+            <th>Poids</th>
+            <th>Prix</th>
         </tr>
         <tr>
-            <td>L2 C1</td>
-            <td>L2 C2</td>
-            <td>L2 C3</td>
+            <td>Kiwi</td>
+            <td>3 Kg</td>
+            <td>2 €</td>
+        </tr>
+        <tr>
+            <td>Banane</td>
+            <td>2 Kg</td>
+            <td>1 €</td>
+        </tr>
+    </table>
+    <table style="background-color:rgba(177, 43, 255, 0.596)">
+        <tr>
+            <th colspan="3">Prix du marché</th>
+        </tr>
+        <tr>
+            <th>Fruits</th>
+            <th>Poids</th>
+            <th>Prix</th>
+        </tr>
+        <tr>
+            <td>Kiwi</td>
+            <td>3 Kg</td>
+            <td>2 €</td>
+        </tr>
+        <tr>
+            <td>Banane</td>
+            <td>2 Kg</td>
+            <td>1 €</td>
+        </tr>
+    </table>
+    <table style="background-color:rgba(255, 241, 49, 0.637)">
+        <tr>
+            <th colspan="3">Prix du marché</th>
+        </tr>
+        <tr>
+            <td rowspan="2">ligne 1 et 2 colonne 1</td>
+            <td>ligne 1 colonne 2</td>
+            <td rowspan="3">ligne 1,2,3 colonne 3</td>
+        </tr>
+        <tr>
+            <td>ligne 2 colonne 2</td>
+        </tr>
+        <tr>
+            <td>ligne 3 colonne 1</td>
+            <td>ligne 3 colonne 2</td>
+        </tr>
+    </table>
+    <table style="background-color:rgba(36, 86, 250, 0.747)">
+        <tr>
+            <th colspan="4">Prix du marché</th>
+        </tr>
+        <tr>
+            <td colspan="3">ligne 1 colonne 1,2,3</td>
+            <td>ligne 1 colonne 4</td>
+        </tr>
+        <tr>
+            <td colspan="2">ligne 2 colonne 1 et 2</td>
+            <td>ligne 2 colonne 3</td>
+            <td>ligne 2 colonne 4</td>
+        </tr>
+        <tr>
+            <td>ligne 3 colonne 1</td>
+            <td>ligne 3 colonne 2</td>
+            <td colspan="2">ligne 3 colonne 3 et 4</td>
         </tr>
     </table>
 </body>
