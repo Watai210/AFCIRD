@@ -16,7 +16,7 @@ html, body {
 body {
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
     background-size: 400% 400%;
-    animation: gradient 8s ease infinite;
+    animation: gradient 10s ease infinite;
 }
 
 @keyframes gradient {
@@ -32,9 +32,9 @@ background-position: 0% 50%;
 }
 div.gallery {
     margin: 5px;
-    border: 1px solid #ccc;
+    border: 1px solid rgba(96, 28, 128, 0.541);
     float: left;
-    width: 350px;
+    width: 390px;
   }
   
   div.gallery:hover {
