@@ -38,7 +38,7 @@ div.gallery {
   }
   
   div.gallery:hover {
-    border: 1px solid #777;
+    border: 1px solid rgba(153, 0, 255, 0.356);
   }
   
   div.gallery img {
