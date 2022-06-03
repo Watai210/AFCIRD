@@ -22,6 +22,12 @@ fieldset{
 .entete{
     color: rgb(184, 8, 184);
 }
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-template-rows: repeat(2, 5vw);
+    grid-gap: 50px;
+}
 div.gallery {
     margin: 5px;
     border: 1px solid rgba(96, 28, 128, 0.541);
