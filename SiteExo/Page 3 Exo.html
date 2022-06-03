@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="./CSS Exo.css">
+</head>
+<body>
+    <fieldset class="field_set">
+        <legend  >MENU</legend>
+         <table>
+               <tr>
+                <th><a class="nounderline" href="./Page 2 Exo.html" target="_blank">À Propos</a></th>
+                <th><a class="nounderline" href="./Page 1 Exo.html" target="_blank">Index</a></th>
+               </tr>
+         </table>
+    </fieldset>
+    <fieldset>
+        <legend class="entete">Nom & Prénom</legend>
+    <form>
+        <label for="nom">Votre nom ici</label>
+        <input placeholder="ex: Ricardo" type="text" id="nom" name="nom"/>
+    <p>
+        
+    </p>    
+        <label for="Prénom">Votre Prénom</label>
+        <input placeholder="ex: Milos" type="text" id="prénom" name="prenom" />
+    </form>
+    </fieldset>
+    <fieldset>
+        <legend class="entete">Style de voitures préférées</legend>
+    <form>
+        <label for="montext">Quel genre de voiture aimez vous ?</label>
+        <input type="checkbox" id="jazz" name="jazz"/>
+        <label for="jazz">Muscle Cars</label>
+        <input type="checkbox" id="techno" name="techno"/>
+        <label for="techno">Japonaises</label>
+        <input type="checkbox" id="rock" name="rock"/>
+        <label for="rock">SUV</label>
+        <input type="checkbox" id="retro" name="retro" checked />
+        <label for="retro">Berline</label>
+    </form>
+    </fieldset>
+    <fieldset>
+        <legend class="entete">Votre retour</legend>
+    <form>
+        <label for="montext">Que souahitez-vous me dire ?</label>
+        <textarea name="montext" id="montext" cols="30" rows="10"></textarea>
+    </form>
+    </fieldset>
+    <fieldset>
+        <legend class="entete">Informations complémentaires</legend>
+    <form method="get">
+        <input type="radio" name="sexe" value="femme" id="femme"/>
+        <label for="femme">Une femme</label>
+        <input type="radio" name="sexe" value="homme" id="homme" checked/>
+        <label for="homme">Un homme</label>
+        <input type="radio" name="sexe" value="nsp" id="nsp"/>
+        <label for="nsp">Je préfère ne pas le dire</label>  
+
+        <p>
+            <label for="pays">De quel pays venez vous ?</label>
+        <select name="pays" id="pays">
+            <option value="france">France</option>
+            <option value="allemagne">Allemagne</option>
+            <option value="espagne">Espagne</option>
+            <option value="royaume-uni">Royaume-Uni</option>
+            <opiton value="japon">Japon</opiton>
+        </select>
+        <input type="reset" value="Remettre a zéros" /><input type="submit" value="Envoyer" />
+        </p>
+    </form>
+</body>
+</html>

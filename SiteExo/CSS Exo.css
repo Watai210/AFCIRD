@@ -1,0 +1,75 @@
+a.nounderline {
+    text-decoration: none;
+}
+h1{
+    color: darkorchid;
+    background-color: black;
+}
+form{
+    background-color: olive;
+}
+.field_set{
+    border-color:rgb(255, 0, 0);
+    background-color: rgba(255, 255, 255, 0);
+}
+fieldset{
+    border-color: darkorange;
+    background-color: olive;
+}
+.entete{
+    color: rgb(184, 8, 184);
+}
+div.gallery {
+    margin: 5px;
+    border: 1px solid rgba(96, 28, 128, 0.541);
+    float: left;
+    width: 390px;
+}
+  
+  div.gallery:hover {
+    border: 3px solid rgba(51, 255, 51, 0.603);
+}
+  
+  div.gallery img {
+    width: 60%;
+    height: auto;
+}
+  
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+/* Background */
+.overflow{
+    height:100px;
+    width:200px;
+    overflow:hidden;
+}
+img{
+    height:100%;
+    width:100%;
+    object-fit: contain;
+}
+html, body {
+    width: 100%;
+    height:100%;
+}
+
+body {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+}
+
+@keyframes gradient {
+0% {
+    background-position: 0% 50%;
+}
+50% {
+    background-position: 100% 50%;
+}
+100% {
+background-position: 0% 50%;
+}
+}
