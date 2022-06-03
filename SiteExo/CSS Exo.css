@@ -1,5 +1,8 @@
 a.nounderline {
     text-decoration: none;
+    color:rgba(155, 49, 253, 0.863);
+    padding: 15px;
+    text-align: left;
 }
 h1{
     color: darkorchid;
