@@ -1,8 +1,25 @@
 a.nounderline {
     text-decoration: none;
-    color:rgba(155, 49, 253, 0.863);
+    color:rgb(8, 8, 8);
     padding: 15px;
     text-align: left;
+}
+#back{
+	text-shadow: 0 -1px rgba(253, 253, 253, 0.918);
+	font-size: 28px;
+	line-height: 40px;
+	background: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/8f46196d-8fd8-474c-a14c-4bdd45ec224c/d7kzomj-032f7944-7f8b-422f-a0b2-66e6170f286e.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzhmNDYxOTZkLThmZDgtNDc0Yy1hMTRjLTRiZGQ0NWVjMjI0Y1wvZDdrem9tai0wMzJmNzk0NC03ZjhiLTQyMmYtYTBiMi02NmU2MTcwZjI4NmUuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.tADwsOhPkdlVv9Y0L1onhxhiDGpYtZ1GVF3fSzbZr8s);
+    width: 380px;
+    height: auto;
+	border: 1px solid #fff;
+	padding: 5px 15px;
+}
+.fill {
+    display: flex;
+    overflow: hidden
+    
+    background-position: center;
+    background-size: cover;
 }
 h1{
     color: darkorchid;
