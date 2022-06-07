@@ -1,8 +1,18 @@
 a.nounderline {
+    box-sizing: border-box;
+    border-spacing: 0px;
     text-decoration: none;
     color:rgb(8, 8, 8);
     padding: 15px;
     text-align: left;
+}
+.row{
+    width: 100%;
+    text-align: center;
+    margin: 15px;
+}
+.col-6{
+    padding: 15px;
 }
 #back{
     text-align: left;
@@ -10,6 +20,8 @@ a.nounderline {
 	text-shadow: 0 -1px rgba(253, 253, 253, 0.918);
 	font-size: 28px;
 	line-height: 40px;
+    display: flex;
+    align-items: flex-end;
 	background: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/8f46196d-8fd8-474c-a14c-4bdd45ec224c/d7kzomj-032f7944-7f8b-422f-a0b2-66e6170f286e.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzhmNDYxOTZkLThmZDgtNDc0Yy1hMTRjLTRiZGQ0NWVjMjI0Y1wvZDdrem9tai0wMzJmNzk0NC03ZjhiLTQyMmYtYTBiMi02NmU2MTcwZjI4NmUuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.tADwsOhPkdlVv9Y0L1onhxhiDGpYtZ1GVF3fSzbZr8s);
     width: 370px;
     height: 120px;
@@ -27,41 +39,56 @@ h1{
     background-color: black;
 }
 form{
-    background-color: olive;
+    background-color: rgb(255, 255, 255);
 }
 .field_set{
     border-color:rgb(255, 0, 0);
     background-color: rgba(255, 255, 255, 0);
 }
 fieldset{
+    width: 1000px;
     border-color: darkorange;
-    background-color: olive;
+    background-color: rgb(255, 255, 255);
 }
 .entete{
     color: rgb(184, 8, 184);
 }
-.gallery {
-    display: grid;
-    grid-template-columns: repeat(2, 2fr);
-    grid-template-rows: repeat(2, 5vw);
-    grid-gap: 50px;
-}
-div.gallery {
-    margin: 5px;
-    border: 1px solid rgba(96, 28, 128, 0.541);
-    float: left;
-    width: 390px;
-}
+.gallery-wrapper {
+    background-color: #dbdbdb;
+    box-sizing: border-box;
+    height: 255px;
+    overflow: hidden;
+  }
   
+  .gallery-scroll {
+    box-sizing: border-box;
+    height: 255px;
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+  
+  .gallery {
+    background-color: #dbdbdb;
+    display: flex;
+    box-sizing: border-box;
+    width: max-content;
+    height: 240px;
+    padding: 0px 4.5px;
+  }
+  
+  .item {
+    box-sizing: border-box;
+    height: 100%;
+    padding: 0px 4.5px;
+  }
+  
+  .item img {
+    display: block;
+    height: 100%;
+  }
   div.gallery:hover {
     border: 3px solid rgba(51, 255, 51, 0.603);
 }
-  
-  div.gallery img {
-    width: 60%;
-    height: auto;
-}
-  
 div.desc {
     padding: 15px;
     text-align: center;
