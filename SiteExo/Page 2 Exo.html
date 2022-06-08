@@ -9,10 +9,47 @@
 </head>
 <body>
         <header id="back">
-            <div class="fill">
+          <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">MENU</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarColor01">
+                <ul class="navbar-nav me-auto">
+                  <li class="nav-item">
+                    <a class="nav-link active" href="./Page 1 Exo.html">Accueil
+                      <span class="visually-hidden">(current)</span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./Page 2 Exo.html">Gallerie</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./Page 3 Exo.html">Contact</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Separated link</a>
+                    </div>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-sm-2" type="text" placeholder="Search">
+                  <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>  
+          <!-- <div class="fill">
             <a class="nounderline" href="./Page 1 Exo.html" target="_blank">Accueil</a>
             <a class="nounderline" href="./Page 3 Exo.html" target="_blank">Contact</a>
-            </div>
+          </div> -->
         </header>
     <h2 style="text-align: center;">Voici quelques exemples de voitures</h2>
     <div class="row">
@@ -47,5 +84,6 @@
         <div><a href="https://www.subaru.fr" target="_blank"><img src="./IMG/Subaru.png" alt="Logo Subaru" title="Logo Subaru"></a></div>
         <div><a href="https://www.nissan.fr/" target="_blank"><img src="./IMG/Nissan.png" alt="Logo Nissan" title="Logo Nissan"></a></div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 </body>
 </html>
