@@ -7,16 +7,17 @@ nav{
     background-color: #fff;
     box-shadow: 0px -20px 40px 20px #0ff;
     background-color: #6f42c1;
+    z-index: 0;
 }
-.navbar.navbar-expand-lg.navbar-dark.bg-primary{    
+.navbar.navbar-expand-lg.navbar-dark.bg-primary{ 
+    box-shadow: -10px -10px 20px 10px #60ff7a!important;   
     background: #6f42c1 !important;
-}
-.navbar.bg-primary {
-    box-shadow: 0 0 2px rgb(111 66 193 / 90%), 0 0 4px rgb(111 66 193 / 40%), 0 0 1rem rgb(111 66 193 / 30%), 0 0 4rem rgb(111 66 193 / 10%);
+    z-index: 1;
 }
 .container-fluid{
     background: #6f42c1;
     background-color: #6f42c1;
+    z-index: 0;
 }
 /* a.nounderline {
     box-sizing: border-box;
@@ -63,7 +64,7 @@ h1{
     color: darkorchid;
     background-color: black;
 }
-/*form{
+form{
     background-color: rgb(255, 255, 255);
 }
 .field_set{
@@ -74,7 +75,7 @@ fieldset{
     width: 1000px;
     border-color: darkorange;
     background-color: rgb(255, 255, 255);
-}*/
+}
 .entete{
     color: rgb(184, 8, 184);
 }
